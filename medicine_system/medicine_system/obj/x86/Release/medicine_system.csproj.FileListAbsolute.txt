@@ -1,0 +1,17 @@
+C:\Users\Administrator\Desktop\medicine_system\medicine_system\bin\Release\medicine_system.exe
+C:\Users\Administrator\Desktop\medicine_system\medicine_system\bin\Release\medicine_system.pdb
+C:\Users\Administrator\Desktop\medicine_system\medicine_system\obj\x86\Release\medicine_system.b_employ.resources
+C:\Users\Administrator\Desktop\medicine_system\medicine_system\obj\x86\Release\medicine_system.form.b_manage.resources
+C:\Users\Administrator\Desktop\medicine_system\medicine_system\obj\x86\Release\medicine_system.b_medicine.resources
+C:\Users\Administrator\Desktop\medicine_system\medicine_system\obj\x86\Release\medicine_system.k_out.resources
+C:\Users\Administrator\Desktop\medicine_system\medicine_system\obj\x86\Release\medicine_system.s_return.resources
+C:\Users\Administrator\Desktop\medicine_system\medicine_system\obj\x86\Release\medicine_system.k_in.resources
+C:\Users\Administrator\Desktop\medicine_system\medicine_system\obj\x86\Release\medicine_system.log.resources
+C:\Users\Administrator\Desktop\medicine_system\medicine_system\obj\x86\Release\medicine_system.Properties.Resources.resources
+C:\Users\Administrator\Desktop\medicine_system\medicine_system\obj\x86\Release\medicine_system.s_sell.resources
+C:\Users\Administrator\Desktop\medicine_system\medicine_system\obj\x86\Release\medicine_system.toboss.resources
+C:\Users\Administrator\Desktop\medicine_system\medicine_system\obj\x86\Release\medicine_system.tokeeper.resources
+C:\Users\Administrator\Desktop\medicine_system\medicine_system\obj\x86\Release\medicine_system.toseller.resources
+C:\Users\Administrator\Desktop\medicine_system\medicine_system\obj\x86\Release\medicine_system.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\medicine_system\medicine_system\obj\x86\Release\medicine_system.exe
+C:\Users\Administrator\Desktop\medicine_system\medicine_system\obj\x86\Release\medicine_system.pdb

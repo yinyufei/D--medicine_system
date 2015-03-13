@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6494031B-C03A-4892-B729-B8AC50A8523D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>medicine_system</RootNamespace>
+    <AssemblyName>medicine_system</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IrisSkin2">
+      <HintPath>..\..\Cpifudajihe\Cpifudajihe\IrisSkin2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="classinfo\CompanyInfo.cs" />
+    <Compile Include="classinfo\EmployInfo.cs" />
+    <Compile Include="classinfo\InInfo.cs" />
+    <Compile Include="classinfo\MedicineInfo.cs" />
+    <Compile Include="classinfo\OutInfo.cs" />
+    <Compile Include="classinfo\ReturnInfo.cs" />
+    <Compile Include="classinfo\SellInfo.cs" />
+    <Compile Include="form\b_manage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\b_manage.Designer.cs">
+      <DependentUpon>b_manage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\b_medicine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\b_medicine.Designer.cs">
+      <DependentUpon>b_medicine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\b_employ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\b_employ.Designer.cs">
+      <DependentUpon>b_employ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\k_out.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\k_out.Designer.cs">
+      <DependentUpon>k_out.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\s_return.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\s_return.Designer.cs">
+      <DependentUpon>s_return.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\k_in.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\k_in.Designer.cs">
+      <DependentUpon>k_in.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\s_sell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\s_sell.Designer.cs">
+      <DependentUpon>s_sell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\toseller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\toseller.Designer.cs">
+      <DependentUpon>toseller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\tokeeper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\tokeeper.Designer.cs">
+      <DependentUpon>tokeeper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\toboss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\toboss.Designer.cs">
+      <DependentUpon>toboss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\log.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\log.Designer.cs">
+      <DependentUpon>log.cs</DependentUpon>
+    </Compile>
+    <Compile Include="methods\CompanyInfoMethod.cs" />
+    <Compile Include="methods\EmployInfoMethod.cs" />
+    <Compile Include="methods\InInfoMethod.cs" />
+    <Compile Include="methods\MedicineInfoMethod.cs" />
+    <Compile Include="methods\OutInfoMethod.cs" />
+    <Compile Include="methods\getSqlConnection.cs" />
+    <Compile Include="methods\ReturnInfoMethod.cs" />
+    <Compile Include="methods\SellInfoMethod.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="form\b_employ.resx">
+      <DependentUpon>b_employ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\b_manage.resx">
+      <DependentUpon>b_manage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\b_medicine.resx">
+      <DependentUpon>b_medicine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\k_out.resx">
+      <DependentUpon>k_out.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\s_return.resx">
+      <DependentUpon>s_return.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\k_in.resx">
+      <DependentUpon>k_in.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\log.resx">
+      <DependentUpon>log.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\s_sell.resx">
+      <DependentUpon>s_sell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\toboss.resx">
+      <DependentUpon>toboss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\tokeeper.resx">
+      <DependentUpon>tokeeper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\toseller.resx">
+      <DependentUpon>toseller.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logpicture.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sellpictue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgound.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bosspicture.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keeperpicture.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
